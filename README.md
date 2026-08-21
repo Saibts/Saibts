@@ -7,9 +7,9 @@
 
 ---
 
-## 📊 My Contribution Graph
+## 📊 My Contribution Activity Graph
 <div align="center">
-  <img src="https://ghchart.rshah.org/00E5FF/Saibts" alt="Saibts's GitHub contributions chart" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saibts&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true" alt="Saibts's Contribution Activity Graph" width="100%" />
 </div>
 
 ---
