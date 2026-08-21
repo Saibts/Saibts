@@ -5,6 +5,11 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Building+robotics+platforms;Giving+them+digital+brains;Let's+build+something+cool!+" alt="Typing SVG" />
 </div>
 
+<br/>
+
+> **Bonjour!** I am Sailakshmi B T, a third-year Robotics and Automation Engineering student at Madras Institute of Technology. I am passionate about embedded systems, control architectures, and integrating AI/computer vision with hardware.
+
+
 ---
 
 ## 📊 My Contribution Activity Graph
