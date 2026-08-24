@@ -1,104 +1,58 @@
-# 👋 Hi, I'm Sailakshmi B T! (`@Saibts`)
-
-Active Robotics & Automation Undergraduate at **Madras Institute of Technology** (2024–2028). I sit at the intersection of **Embedded Systems, Control Systems, and AI-Driven Applications (Agentic Systems & CV)**.
-
----
-
-### 🚀 Quick Overview
-* **🤖 Current Focus:** Closed-loop feedback mechanisms, edge AI diagnostics, and building agentic backends using Google ADK & Gemini.
-* **🏫 Academic Stats:** Robotics & Automation CGPA: **8.99/10.0**
-* **💡 Passion:** Developing physical hardware platforms and giving them digital brains.
-
----
-
-## 🛠️ Tech Specs & Armory
-
-<table>
-  <tr>
-    <td align="left" valign="top" width="50%">
-      <h4>⚡ Hardware & Embedded Systems</h4>
-      <ul>
-        <li><b>Microcontrollers:</b> Arduino Uno R3, Arduino Nano, 8051 (AT89S52)</li>
-        <li><b>Control Systems:</b> PID Control, Closed-Loop Feedback, Inertial Sensing</li>
-        <li><b>Protocols & Interfaces:</b> I2C, SPI, Sensor Interfacing</li>
-        <li><b>Design & EDA:</b> SolidWorks, KiCAD</li>
-      </ul>
-    </td>
-    <td align="left" valign="top" width="50%">
-      <h4>🧠 Software & Intelligence</h4>
-      <ul>
-        <li><b>Languages:</b> Python, Embedded C, MATLAB & Simulink</li>
-        <li><b>AI & Agents:</b> Google Agent Development Kit (ADK), Gemini API, Ollama (Llama 3.2)</li>
-        <li><b>CV & Web:</b> OpenCV (coursework), FastAPI, WebSockets, Web Speech API</li>
-        <li><b>RE & Cyber:</b> Ghidra, Binwalk, Firmware Binary Analysis</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-## 🏗️ Selected Projects & Builds
-
-### 🧠 AI & Intelligent Systems
-* **Student Life Concierge AI Agent** 
-  * *FastAPI, Google ADK, Gemini API, Pytest*
-  * Developed a multi-agent backend that parses academic emails and schedules tasks dynamically. Integrated a security layer to prevent prompt injections.
-* **Orion – Local AI Voice Assistant**
-  * *FastAPI, WebSockets, Ollama (Llama 3.2), Web Speech API*
-  * Built an offline, real-time voice assistant running local models with async streaming. Currently expanding with system diagnostic tools.
-* **Masters Application Tracker & Resume Analyzer**
-  * *React, Vite, PDF.js, LocalStorage*
-  * Privacy-first client-side web application for managing academic admissions pipelines with a local PDF parser.
-
-### 🤖 Robotics, Control & Embedded
-* **Single-Axis Gimbal Stabilization System**
-  * *Arduino Nano, MPU-6050 IMU, SG90 Servo, Embedded C*
-  * Designed and built a closed-loop PID control stabilization mechanism correcting angular disturbances in real-time.
-* **Grip Stability & Stress Analyzer**
-  * *Arduino Uno, HX711 ADC, Load Cell*
-  * Measures hand tremors and grip force to perform real-time stress estimation.
-* **Adaptive Self-Mutating Authentication System**
-  * *AT89S52 (8051), Hardware Timers, Embedded C*
-  * Created a physical digital lock that regenerates passwords non-deterministically after every login to resist replay attacks.
-* **Dual-Mode Rotary Mechanism**
-  * *SolidWorks*
-  * Geneva wheel and dog clutch design. **Design Patent Pending**.
-
----
-
-## 🏆 Hackathons & Achievements
-* 🏅 **Smart India Hackathon 2025 (Delhi)** – *National Finalist* | Built an AI tool to identify cryptographic primitives in multi-architecture firmware binaries.
-* 🥈 **H2TS Hackathon 2025** – *2nd Place* | Co-designed and built an AI-powered emergency response SOS coordination platform.
-* ⚡ **VISA 24-Hour Hackathon 2026** – *Participant* | FinTech innovation sprint.
-
----
-
-## 📝 Certifications
-* **Anthropic:** AI Capabilities and Limitations
-* **AWS:** Foundations of Prompt Engineering
-* **NPTEL:** Automation in Manufacturing (*Elite, 67%*)
-
----
-
-## 🤝 Let's Connect!
-* 📧 **Email:** [sailakshmibt2006@gmail.com](mailto:sailakshmibt2006@gmail.com)
-* 💼 **LinkedIn:** [/in/sailakshmi-65a696327](https://linkedin.com/in/sailakshmi-65a696327)
-* 🐙 **GitHub:** [github.com/Saibts](https://github.com/Saibts)
-
----
-
-## 📊 GitHub Analytics & Contributions
+# ⚡ SAILAKSHMI B T (`@Saibts`)
+### 🤖 Robotics & Automation Undergrad | Embedded Systems & AI Developer
 
 <div align="center">
-  <!-- GitHub Profile Trophies -->
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=Saibts&theme=tokyonight&column=7&margin-w=15&margin-h=15" alt="Saibts' Trophies" />
-  </a>
-  
-  <br/><br/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Building+physical+hardware;Giving+it+digital+brains;FastAPI+%2B+Google+ADK+%2B+Gemini;Arduino+%2B+Control+Systems;Let's+build+something+cool!+" alt="Typing SVG" />
+</div>
 
-  <!-- Stats Grid -->
+---
+
+## 🐍 My Contribution Board eating my commits!
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Saibts/Saibts/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Saibts/Saibts/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Saibts/Saibts/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+---
+
+## 🛠️ The Tech Stack
+
+<div align="center">
+  
+  ### 🔌 Hardware & Control Systems
+  ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white)
+  ![Microcontroller](https://img.shields.io/badge/-8051-blue?style=for-the-badge)
+  ![SolidWorks](https://img.shields.io/badge/-SolidWorks-DA291C?style=for-the-badge&logo=solidworks&logoColor=white)
+  ![KiCad](https://img.shields.io/badge/-KiCad-314C9F?style=for-the-badge&logo=kicad&logoColor=white)
+  ![MATLAB](https://img.shields.io/badge/-MATLAB-E16719?style=for-the-badge&logo=mathworks&logoColor=white)
+  
+  ### 🧠 Software, AI & Agents
+  ![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![Embedded C](https://img.shields.io/badge/-Embedded%20C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
+  ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+  ![Ollama](https://img.shields.io/badge/-Ollama-black?style=for-the-badge)
+  ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+  ![Ghidra](https://img.shields.io/badge/-Ghidra-teal?style=for-the-badge)
+  
+</div>
+
+---
+
+## 🏗️ What I'm Building & Breaking
+* **🧠 Student Life Concierge AI Agent:** Multi-agent platform built with FastAPI, Google ADK, and Gemini API to parse emails & automate tasks.
+* **🎙️ Orion:** A local voice assistant using Llama 3.2 via Ollama and async WebSockets.
+* **🔭 Gimbal Stabilization:** Single-axis physical stabilization platform run by an Arduino Nano and MPU-6050 with closed-loop PID control.
+* **🛡️ Mutating Auth Lock:** AT89S52 (8051) microcontroller lock generating password mutations on the fly.
+* **⚙️ Geneva Clutch Mechanism:** Dual-mode mechanical rotary device (*Design Patent Pending*).
+
+---
+
+## 📊 Live Github Stats
+
+<div align="center">
   <table>
     <tr>
       <td align="center" valign="middle">
@@ -114,5 +68,17 @@ Active Robotics & Automation Undergraduate at **Madras Institute of Technology**
       </td>
     </tr>
   </table>
+  
+  <br/>
+  
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=Saibts&theme=tokyonight&column=7&margin-w=15&margin-h=15" alt="Saibts' Trophies" />
+  </a>
 </div>
 
+---
+
+## 📬 Reach Out!
+* 💼 **LinkedIn:** [linkedin.com/in/sailakshmi-65a696327](https://linkedin.com/in/sailakshmi-65a696327)
+* 📧 **Email:** [sailakshmibt2006@gmail.com](mailto:sailakshmibt2006@gmail.com)
+* 🌐 **Portfolio Site:** [github.com/Saibts](https://github.com/Saibts)
