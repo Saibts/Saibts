@@ -12,10 +12,39 @@
 
 ---
 
-## 📊 June 2026 Activity Graph
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saibts&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&from=2026-06-01&to=2026-06-30&custom_title=Contributions%20-%20June%202026" alt="Saibts's June 2026 Activity Graph" width="100%" />
-</div>
+## 📊 Contribution Activity Graph (Month Switcher)
+
+<details>
+  <summary>📅 View May 2026 Graph</summary>
+  <br/>
+  <div align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saibts&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&from=2026-05-01&to=2026-05-31&custom_title=Contributions%20-%20May%202026" alt="Saibts's May 2026 Activity Graph" width="100%" />
+  </div>
+</details>
+
+<details open>
+  <summary>📅 View June 2026 Graph (Active)</summary>
+  <br/>
+  <div align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saibts&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&from=2026-06-01&to=2026-06-30&custom_title=Contributions%20-%20June%202026" alt="Saibts's June 2026 Activity Graph" width="100%" />
+  </div>
+</details>
+
+<details>
+  <summary>📅 View July 2026 Graph</summary>
+  <br/>
+  <div align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saibts&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&from=2026-07-01&to=2026-07-31&custom_title=Contributions%20-%20July%202026" alt="Saibts's July 2026 Activity Graph" width="100%" />
+  </div>
+</details>
+
+<details>
+  <summary>📅 View August 2026 Graph</summary>
+  <br/>
+  <div align="center">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saibts&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&from=2026-08-01&to=2026-08-31&custom_title=Contributions%20-%20August%202026" alt="Saibts's August 2026 Activity Graph" width="100%" />
+  </div>
+</details>
 
 ---
 
