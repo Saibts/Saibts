@@ -14,13 +14,7 @@
 
 ## 📊 Contribution Activity Graph (Month Switcher)
 
-<details>
-  <summary>📅 View May 2026 Graph</summary>
-  <br/>
-  <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saibts&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&from=2026-05-01&to=2026-05-31&custom_title=Contributions%20-%20May%202026" alt="Saibts's May 2026 Activity Graph" width="100%" />
-  </div>
-</details>
+
 
 <details open>
   <summary>📅 View June 2026 Graph (Active)</summary>
