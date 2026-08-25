@@ -10,9 +10,9 @@
 > **Bonjour!** I am Sailakshmi B T, a third-year Robotics and Automation Engineering student at Madras Institute of Technology. I am passionate about embedded systems, control architectures, and integrating AI/computer vision with hardware.
 
 
-## 📊 My Contributions
+## 📊 My Contribution Activity Graph
 <div align="center">
-  <img src="https://ghchart.rshah.org/00E5FF/Saibts" alt="Saibts's GitHub contributions chart" width="100%" />
+  <img src="activity-graph.svg" alt="Saibts's Contribution Activity Graph" width="100%" />
 </div>
 
 <br/>
