@@ -17,20 +17,6 @@
 
 <br/>
 
-## ⚡ GitHub Analytics
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center" valign="middle">
-        <img src="https://github-readme-stats.vercel.app/api?username=Saibts&show_icons=true&theme=tokyonight&count_private=true" alt="Saibts's GitHub Stats" height="195" />
-      </td>
-      <td align="center" valign="middle">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Saibts&theme=tokyonight" alt="Saibts's Streak Stats" height="195" />
-      </td>
-    </tr>
-  </table>
-</div>
-
 ## 🏗️ What I'm Building & Breaking (My Repositories)
 
 * **🤖 [orion-local-ai](https://github.com/Saibts/orion-local-ai)**
