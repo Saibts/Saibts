@@ -1,5 +1,5 @@
-# ⚡ SAILAKSHMI B T (`@Saibts`)
-### 🤖 Robotics & Automation Undergrad | Embedded Systems & AI Developer
+# SAILAKSHMI B T (`@Saibts`)
+### Robotics & Automation Undergrad | Embedded Systems & AI Developer
 
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Building+robotics+platforms;Giving+them+digital+brains;Let's+build+something+cool!+" alt="Typing SVG" />
@@ -10,37 +10,26 @@
 > **Bonjour!** I am Sailakshmi B T, a third-year Robotics and Automation Engineering student at Madras Institute of Technology. I am passionate about embedded systems, control architectures, and integrating AI/computer vision with hardware.
 
 
----
+## 📊 My Contributions
+<div align="center">
+  <img src="https://ghchart.rshah.org/00E5FF/Saibts" alt="Saibts's GitHub contributions chart" width="100%" />
+</div>
 
-## 📊 Contribution Activity Graph (Month Switcher)
+<br/>
 
-
-
-<details open>
-  <summary>📅 View June 2026 Graph (Active)</summary>
-  <br/>
-  <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saibts&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&from=2026-06-01&to=2026-06-30&custom_title=Contributions%20-%20June%202026" alt="Saibts's June 2026 Activity Graph" width="100%" />
-  </div>
-</details>
-
-<details>
-  <summary>📅 View July 2026 Graph</summary>
-  <br/>
-  <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saibts&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&from=2026-07-01&to=2026-07-31&custom_title=Contributions%20-%20July%202026" alt="Saibts's July 2026 Activity Graph" width="100%" />
-  </div>
-</details>
-
-<details>
-  <summary>📅 View August 2026 Graph</summary>
-  <br/>
-  <div align="center">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Saibts&bg_color=0D1117&color=00E5FF&line=00E5FF&point=FFFFFF&area=true&hide_border=true&from=2026-08-01&to=2026-08-31&custom_title=Contributions%20-%20August%202026" alt="Saibts's August 2026 Activity Graph" width="100%" />
-  </div>
-</details>
-
----
+## ⚡ GitHub Analytics
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" valign="middle">
+        <img src="https://github-readme-stats.vercel.app/api?username=Saibts&show_icons=true&theme=tokyonight&count_private=true" alt="Saibts's GitHub Stats" height="195" />
+      </td>
+      <td align="center" valign="middle">
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Saibts&theme=tokyonight" alt="Saibts's Streak Stats" height="195" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 ## 🏗️ What I'm Building & Breaking (My Repositories)
 
