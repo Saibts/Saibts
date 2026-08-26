@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="avatar.png" alt="Avatar" width="130" />
+  <img src="avatar.svg?v=2" alt="Avatar" width="130" />
 </div>
 
 # SAILAKSHMI B T (`@Saibts`)
