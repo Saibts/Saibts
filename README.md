@@ -77,9 +77,9 @@
   
   <br/>
   
-  <h4 align="center">🎮 Playable "Catch the Bug" Minigame</h4>
+  <h4 align="center">📁 Interactive Project Explorer Console (Hover Files to Inspect)</h4>
   <div align="center">
-    <img alt="Catch the Bug Minigame" src="bug-hunt.svg?v=1" width="100%" />
+    <img alt="Interactive Project Explorer" src="project-console.svg?v=1" width="100%" />
   </div>
 </details>
 
