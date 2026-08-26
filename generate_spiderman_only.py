@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="100%">
+def generate_spiderman_only():
+    svg_content = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 220" width="100%" height="100%">
   <style>
     .bg { fill: #0D1117; rx: 10px; }
     
@@ -60,4 +61,10 @@
       <path d="M3,24 Q9,33 4,39" stroke="#1F4A96" stroke-width="2.5" fill="none" stroke-linecap="round" />
     </g>
   </g>
-</svg>
+</svg>"""
+    with open("profile-spiderman.svg", "w", encoding="utf-8") as f:
+        f.write(svg_content)
+    print("profile-spiderman.svg generated successfully with Spiderman only!")
+
+if __name__ == "__main__":
+    generate_spiderman_only()
