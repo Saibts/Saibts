@@ -11,7 +11,7 @@
     .robot-accent { fill: none; stroke: #00E5FF; stroke-width: 2; opacity: 0.8; }
     .robot-wheel { fill: #0D1117; stroke: #30363D; stroke-width: 3; }
     
-    /* Hotspots & Interactivity */
+    /* Hotspots and Interactivity */
     .hotspot { cursor: pointer; }
     .hotspot-ring { fill: none; stroke: #00E5FF; stroke-width: 1.5; transform-origin: center; animation: pulse 2s infinite; }
     .hotspot-center { fill: #00E5FF; stroke: #0D1117; stroke-width: 1.5; transition: all 0.3s ease; }
