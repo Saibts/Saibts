@@ -97,11 +97,11 @@
     <text x="650" y="101" class="title-text">PyTorch &amp; TensorFlow</text>
     <text x="650" y="110" class="sub-text">Deep Learning models</text>
   </g>
-  <!-- Child 3: AI Agents -->
+  <!-- Child 3: AI Agents & Google Antigravity -->
   <g class="node-group">
-    <rect x="575" y="135" width="120" height="30" rx="4" class="node-ai" />
-    <text x="635" y="151" class="title-text">AI Agents &amp; Vibe Coding</text>
-    <text x="635" y="160" class="sub-text">LLM Orchestration</text>
+    <rect x="575" y="135" width="135" height="30" rx="4" class="node-ai" />
+    <text x="642.5" y="151" class="title-text">AI Agents &amp; Antigravity</text>
+    <text x="642.5" y="160" class="sub-text">Google AGY &amp; Vibe Coding</text>
   </g>
   
   <!-- ==================== EMBEDDED BRANCH ==================== -->
