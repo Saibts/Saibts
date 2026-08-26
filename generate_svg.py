@@ -23,7 +23,7 @@ CONFIG = {
     
     # Computer Vision & AI Branch (Right side, Top)
     "ai": {
-        "title": "👁️ CV & AI",
+        "title": "🖥️ CV & AI",
         "subtitle": "Computer Vision",
         "color": "#00E5FF",
         "children": [
@@ -35,7 +35,7 @@ CONFIG = {
     
     # Embedded Branch (Right side, Bottom)
     "embedded": {
-        "title": "💻 EMBEDDED",
+        "title": "💡 EMBEDDED",
         "subtitle": "Firmware & Soft",
         "color": "#10B981",
         "children": [
