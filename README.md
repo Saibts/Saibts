@@ -77,9 +77,8 @@
   
   <br/>
   
-  <h4 align="center">🕷️ Spiderman Contribution Calendar (Pixel Art)</h4>
   <div align="center">
-    <img alt="Spiderman Contribution Calendar" src="profile-spiderman.svg?v=4" width="100%" />
+    <img alt="Spiderman Contribution Calendar" src="profile-spiderman.svg?v=5" width="100%" />
   </div>
 </details>
 
