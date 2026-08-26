@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Saibts/Saibts/main/avatar.svg?v=20" alt="Avatar" width="130" />
+  <img src="https://raw.githubusercontent.com/Saibts/Saibts/main/avatar.svg?v=25" alt="Avatar" width="130" />
 </div>
 
 # SAILAKSHMI B T (`@Saibts`)

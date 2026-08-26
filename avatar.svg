@@ -1,74 +1,76 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
   <defs>
-    <!-- Dark radial background -->
-    <radialGradient id="bg-grad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#1A0F2E" />
-      <stop offset="100%" stop-color="#07040C" />
-    </radialGradient>
+    <!-- Soft pastel gradient for a super cute, cozy background -->
+    <linearGradient id="pastel-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF2F8" />
+      <stop offset="100%" stop-color="#F3E8FF" />
+    </linearGradient>
   </defs>
   
-  <!-- Outer neon glowing circle -->
-  <circle cx="100" cy="100" r="95" fill="url(#bg-grad)" stroke="#D946EF" stroke-width="2.5" />
+  <!-- Soft pastel circle background with a cute border -->
+  <circle cx="100" cy="100" r="95" fill="url(#pastel-grad)" stroke="#F5D0FE" stroke-width="3" />
   
-  <!-- Cozy White Hoodie Hood (Back & Sides) -->
-  <circle cx="100" cy="110" r="54" fill="#F3F4F6" stroke="#E5E7EB" stroke-width="1" />
-  
-  <!-- Inner Hood Opening Shadow -->
-  <circle cx="100" cy="112" r="46" fill="#1E293B" />
-  
-  <!-- Chibi Face Base (Skin Tone) -->
-  <ellipse cx="100" cy="118" rx="44" ry="34" fill="#FFE4E6" />
-  
-  <!-- Blush Cheeks -->
-  <ellipse cx="68" cy="122" rx="7" ry="3.5" fill="#F43F5E" opacity="0.35" />
-  <ellipse cx="132" cy="122" rx="7" ry="3.5" fill="#F43F5E" opacity="0.35" />
-  
-  <!-- Smug Smile -->
-  <path d="M 94 126 Q 100 132 106 126" stroke="#1E293B" stroke-width="2.5" fill="none" stroke-linecap="round" />
-  
-  <!-- YUNI LILAC HAIR -->
-  <!-- Back/side hair locks inside the hood -->
-  <path d="M 56 100 Q 50 120 57 135 Q 67 122 66 110 Z" fill="#C084FC" />
-  <path d="M 144 100 Q 150 120 143 135 Q 133 122 134 110 Z" fill="#C084FC" />
-  
-  <!-- Forehead Bangs (Pointed strands overlapping forehead) -->
-  <path d="M 56 100 
-           Q 100 78 144 100 
-           L 138 106
-           Q 124 108 118 96
-           Q 110 110 100 96
-           Q 90 110 82 96
-           Q 74 108 62 106 Z" fill="#C084FC" />
-           
-  <!-- Cute Dark Bat-Wing Hair Clips (Horns) -->
-  <!-- Left Clip -->
-  <path d="M 49 92 L 35 84 C 30 92, 40 102, 47 100 Z" fill="#111424" stroke="#000000" stroke-width="1" />
-  <!-- Right Clip -->
-  <path d="M 151 92 L 165 84 C 170 92, 160 102, 153 100 Z" fill="#111424" stroke="#000000" stroke-width="1" />
+  <!-- Head group tilted slightly for that cute chibi look -->
+  <g transform="rotate(-4, 100, 110)">
+    
+    <!-- White cozy hoodie hood (Back) -->
+    <circle cx="100" cy="110" r="54" fill="#FFFFFF" stroke="#F1F5F9" stroke-width="1.5" />
+    
+    <!-- Inner hood dark shadow -->
+    <circle cx="100" cy="111" r="46" fill="#2E1C4E" />
+    
+    <!-- Face base (extra chubby, soft skin tone) -->
+    <ellipse cx="100" cy="118" rx="45" ry="35" fill="#FFF1F2" />
+    
+    <!-- Soft rosy blush cheeks -->
+    <ellipse cx="68" cy="122" rx="9" ry="5" fill="#FDA4AF" opacity="0.6" />
+    <ellipse cx="132" cy="122" rx="9" ry="5" fill="#FDA4AF" opacity="0.6" />
+    
+    <!-- Tiny cute off-center smile -->
+    <path d="M 95 125 Q 98 128 102 125" stroke="#475569" stroke-width="2.2" fill="none" stroke-linecap="round" />
+    
+    <!-- Lilac hair bangs (Soft, rounded chibi strands) -->
+    <!-- Left/Right hair framing cheeks -->
+    <path d="M 57 102 Q 52 118 58 132 Q 67 122 66 110 Z" fill="#D8B4FE" />
+    <path d="M 143 102 Q 148 118 142 132 Q 133 122 134 110 Z" fill="#D8B4FE" />
+    
+    <!-- Soft rounded bangs -->
+    <path d="M 57 102 
+             Q 100 82 143 102 
+             L 138 107
+             Q 124 110 119 98
+             Q 110 111 100 98
+             Q 90 111 81 98
+             Q 73 110 61 107 Z" fill="#D8B4FE" />
+             
+    <!-- Small bat-wing hair clips (horns) -->
+    <path d="M 48 94 L 36 86 C 32 93, 40 101, 46 100 Z" fill="#3B2667" />
+    <path d="M 152 94 L 164 86 C 168 93, 160 101, 154 100 Z" fill="#3B2667" />
 
-  <!-- Thug Life "Deal With It" Pixel Sunglasses -->
-  <g transform="translate(54, 94) scale(1.15)">
-    <!-- Left lens -->
-    <rect x="0" y="8" width="28" height="12" fill="#000000" />
-    <rect x="4" y="20" width="20" height="4" fill="#000000" />
-    <rect x="8" y="24" width="12" height="4" fill="#000000" />
-    <!-- Highlights -->
-    <rect x="4" y="12" width="4" height="4" fill="#FFFFFF" />
-    <rect x="12" y="16" width="4" height="4" fill="#FFFFFF" />
-    
-    <!-- Bridge -->
-    <rect x="28" y="12" width="12" height="4" fill="#000000" />
-    
-    <!-- Right lens -->
-    <rect x="40" y="8" width="28" height="12" fill="#000000" />
-    <rect x="44" y="20" width="20" height="4" fill="#000000" />
-    <rect x="48" y="24" width="12" height="4" fill="#000000" />
-    <!-- Highlights -->
-    <rect x="44" y="12" width="4" height="4" fill="#FFFFFF" />
-    <rect x="52" y="16" width="4" height="4" fill="#FFFFFF" />
-    
-    <!-- Side handles -->
-    <rect x="-8" y="8" width="8" height="4" fill="#000000" />
-    <rect x="68" y="8" width="8" height="4" fill="#000000" />
+    <!-- Tilted Deal-With-It Glasses -->
+    <g transform="translate(54, 94) scale(1.15)">
+      <!-- Left lens -->
+      <rect x="0" y="8" width="28" height="11" rx="1" fill="#1E1B4B" />
+      <rect x="4" y="19" width="20" height="3" rx="1" fill="#1E1B4B" />
+      <rect x="8" y="22" width="12" height="3" rx="1" fill="#1E1B4B" />
+      <!-- White pixel highlights -->
+      <rect x="4" y="11" width="3" height="3" fill="#FFFFFF" />
+      <rect x="12" y="15" width="3" height="3" fill="#FFFFFF" />
+      
+      <!-- Bridge -->
+      <rect x="28" y="11" width="12" height="3" fill="#1E1B4B" />
+      
+      <!-- Right lens -->
+      <rect x="40" y="8" width="28" height="11" rx="1" fill="#1E1B4B" />
+      <rect x="44" y="19" width="20" height="3" rx="1" fill="#1E1B4B" />
+      <rect x="48" y="22" width="12" height="3" rx="1" fill="#1E1B4B" />
+      <!-- White pixel highlights -->
+      <rect x="44" y="11" width="3" height="3" fill="#FFFFFF" />
+      <rect x="52" y="15" width="3" height="3" fill="#FFFFFF" />
+      
+      <!-- Handles -->
+      <rect x="-8" y="8" width="8" height="3" fill="#1E1B4B" />
+      <rect x="68" y="8" width="8" height="3" fill="#1E1B4B" />
+    </g>
   </g>
 </svg>
