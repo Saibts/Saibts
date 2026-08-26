@@ -29,7 +29,7 @@
   
   * **Computer Vision:** OpenCV, MediaPipe (Real-time Hand/Pose Tracking)
   * **Deep Learning & ML:** PyTorch, TensorFlow, Scikit-learn, Regression & Classification
-  * **Edge AI:** Local AI deployment, LLM orchestration (Llama 3.2, Ollama)
+  * **AI & Agentic Development:** AI Agents, Vibe Coding, LLM orchestration (Llama 3.2, Ollama), Local AI deployment
 </details>
 
 <details>
