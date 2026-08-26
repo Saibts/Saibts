@@ -191,8 +191,8 @@ formatted_svg = svg_template.format(
     sub_emb_child3=esc(CONFIG["embedded"]["children"][2]["subtitle"])
 )
 
-with open("tech-stack-toolbox.svg", "w", encoding="utf-8") as f:
+with open("tech-stack-mindmap.svg", "w", encoding="utf-8") as f:
     f.write(formatted_svg)
 
-print("Successfully generated tech-stack-toolbox.svg!")
+print("Successfully generated tech-stack-mindmap.svg!")
 
