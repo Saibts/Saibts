@@ -80,7 +80,7 @@
   <br/>
   
   <div align="center">
-    <img alt="Chibi Avatar Contribution Graph" src="profile-spiderman.svg?v=16" width="100%" />
+    <img alt="Chibi Avatar Contribution Graph" src="profile-spiderman.svg?v=100" width="100%" />
   </div>
 </details>
 
