@@ -49,19 +49,6 @@ def generate_chibi_graph():
     svg.append(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {svg_width} {svg_height}" width="100%" height="100%">')
     svg.append(f'  <rect width="100%" height="100%" fill="{color_bg}" rx="10" />')
     
-    # CSS Animations
-    svg.append("""  <style>
-    /* Subtle background grid fade-in */
-    .cell {
-      transform-origin: center;
-      animation: fadeIn 1s ease-out both;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: scale(0.8); }
-      to { opacity: 1; transform: scale(1); }
-    }
-  </style>""")
-    
     # Generate calendar cells
     for col in range(cols):
         for row in range(rows):
@@ -88,15 +75,14 @@ def generate_chibi_graph():
                 elif char == 'H':
                     cell_color = color_hoodie
             
-            delay_ms = col * 15 + row * 10
-            svg.append(f'  <rect class="cell" x="{x}" y="{y}" width="11" height="11" rx="2" ry="2" fill="{cell_color}" style="animation-delay: {delay_ms}ms; transform-box: fill-box;" />')
+            svg.append(f'  <rect x="{x}" y="{y}" width="11" height="11" rx="2" ry="2" fill="{cell_color}" />')
             
     svg.append('</svg>')
     
     output = "\n".join(svg)
     with open("profile-spiderman.svg", "w", encoding="utf-8") as f:
         f.write(output)
-    print("profile-spiderman.svg generated successfully with chibi avatar face grid!")
+    print("profile-spiderman.svg generated successfully without style/animation blocks!")
 
 if __name__ == "__main__":
     generate_chibi_graph()
