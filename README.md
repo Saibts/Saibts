@@ -36,7 +36,7 @@
   <summary><b>💻 Software & Embedded Development</b> (Click to expand)</summary>
   <br/>
   
-  * **Programming Languages:** Python, C++, Embedded C
+  * **Programming Languages:** Python, Embedded C
   * **Embedded Hardware:** Arduino, ESP32, STM32, Single Board Computers (Jetson)
   * **Tools & OS:** Git, Linux (Ubuntu), Micro-ROS, VS Code
 </details>
