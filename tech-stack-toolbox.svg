@@ -1,24 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
   <style>
     .bg { fill: #0D1117; rx: 10px; }
-    
-    /* Connection lines */
     .link { fill: none; stroke-linecap: round; stroke-linejoin: round; opacity: 0.85; }
     .link-robotics { stroke: #3B82F6; stroke-width: 2; filter: drop-shadow(0 0 2px #3B82F6); }
     .link-ai { stroke: #00E5FF; stroke-width: 2; filter: drop-shadow(0 0 2px #00E5FF); }
     .link-embedded { stroke: #10B981; stroke-width: 2; filter: drop-shadow(0 0 2px #10B981); }
     
-    /* Text styles */
     .title-text { font-family: "Segoe UI", -apple-system, sans-serif; font-weight: bold; fill: #FFFFFF; font-size: 10.5px; text-anchor: middle; }
     .sub-text { font-family: "Segoe UI", -apple-system, sans-serif; fill: #8B949E; font-size: 9.5px; text-anchor: middle; }
     
-    /* Nodes */
     .core-node { fill: #1E1B4B; stroke: #D946EF; stroke-width: 2.5; filter: drop-shadow(0 0 5px #D946EF); }
     .node-robotics { fill: #1E293B; stroke: #3B82F6; stroke-width: 1.5; }
     .node-ai { fill: #1E293B; stroke: #00E5FF; stroke-width: 1.5; }
     .node-embedded { fill: #1E293B; stroke: #10B981; stroke-width: 1.5; }
     
-    /* Hover effects for interactive feel on GitHub */
     g.node-group:hover rect {
       fill: #0F172A !important;
       stroke-width: 2 !important;
@@ -27,17 +22,10 @@
   
   <rect width="100%" height="100%" class="bg" />
   
-  <!-- BACKGROUND SCHEMATIC LINKS -->
-  <!-- Robotics Branch (Left - Aligned to pivot x=225, connecting to 3 balanced children at x=200) -->
+  <!-- CONNECTION PATHS -->
   <path d="M 400 160 L 225 160 M 225 160 L 200 75 M 225 160 L 200 155 M 225 160 L 200 235" class="link link-robotics" />
-  
-  <!-- AI & CV Branch (Right - Aligned to connect to x=565) -->
   <path d="M 400 160 Q 400 80 500 80 M 500 80 L 565 50 M 500 80 L 565 100 M 500 80 L 565 150" class="link link-ai" />
-  
-  <!-- Embedded Branch (Right - Aligned to connect to x=565) -->
   <path d="M 400 160 Q 400 240 500 240 M 500 240 L 565 200 M 500 240 L 565 250 M 500 240 L 565 290" class="link link-embedded" />
-  
-  <!-- ==================== NODES & LABELS ==================== -->
   
   <!-- CENTRAL CORE NODE -->
   <g class="node-group">
@@ -46,81 +34,69 @@
     <text x="400" y="173" class="sub-text" fill="#E879F9">Developer Toolbox</text>
   </g>
   
-  <!-- ==================== ROBOTICS BRANCH (LEFT) ==================== -->
-  <!-- Main Robotics Hub -->
+  <!-- ROBOTICS BRANCH -->
   <g class="node-group">
     <rect x="225" y="140" width="100" height="40" rx="6" class="node-robotics" />
     <text x="275" y="158" class="title-text">🤖 ROBOTICS</text>
-    <text x="275" y="171" class="sub-text" fill="#60A5FA">Control &amp; Systems</text>
+    <text x="275" y="171" class="sub-text" fill="#60A5FA">Control & Systems</text>
   </g>
-  <!-- Child 1: ROS 2 (Shifted down slightly to y=60, center y=75) -->
   <g class="node-group">
     <rect x="65" y="60" width="135" height="30" rx="4" class="node-robotics" />
     <text x="132.5" y="76" class="title-text">ROS 2 (Jazzy/Humble)</text>
-    <text x="132.5" y="85" class="sub-text">Middleware &amp; Nav2</text>
+    <text x="132.5" y="85" class="sub-text">Middleware & Nav2</text>
   </g>
-  <!-- Child 2: Platforms (Shifted to y=140, center y=155) -->
   <g class="node-group">
     <rect x="65" y="140" width="135" height="30" rx="4" class="node-robotics" />
     <text x="132.5" y="156" class="title-text">AgileX Scout Mini</text>
-    <text x="132.5" y="165" class="sub-text">Mobile Platforms &amp; Arms</text>
+    <text x="132.5" y="165" class="sub-text">Mobile Platforms & Arms</text>
   </g>
-  <!-- Child 3: Sensors Integration (Shifted to y=220, center y=235) -->
   <g class="node-group">
     <rect x="65" y="220" width="135" height="30" rx="4" class="node-robotics" />
     <text x="132.5" y="236" class="title-text">Sensors integration</text>
     <text x="132.5" y="245" class="sub-text">LIDAR, IMUs, Encoders</text>
   </g>
   
-  <!-- ==================== CV & ML BRANCH (RIGHT) ==================== -->
-  <!-- Main CV & ML Hub -->
+  <!-- CV & AI BRANCH -->
   <g class="node-group">
     <rect x="450" y="60" width="100" height="40" rx="6" class="node-ai" />
-    <text x="500" y="78" class="title-text">👁️ CV &amp; AI</text>
+    <text x="500" y="78" class="title-text">👁️ CV & AI</text>
     <text x="500" y="91" class="sub-text" fill="#22D3EE">Computer Vision</text>
   </g>
-  <!-- Child 1: OpenCV & MediaPipe (Width 150, start x=565, center x=640) -->
   <g class="node-group">
     <rect x="565" y="35" width="150" height="30" rx="4" class="node-ai" />
-    <text x="640" y="51" class="title-text">OpenCV &amp; MediaPipe</text>
+    <text x="640" y="51" class="title-text">OpenCV & MediaPipe</text>
     <text x="640" y="60" class="sub-text">Hand/Pose Tracking</text>
   </g>
-  <!-- Child 2: Deep Learning (Width 150, start x=565, center x=640) -->
   <g class="node-group">
     <rect x="565" y="85" width="150" height="30" rx="4" class="node-ai" />
-    <text x="640" y="101" class="title-text">PyTorch &amp; TensorFlow</text>
+    <text x="640" y="101" class="title-text">PyTorch & TensorFlow</text>
     <text x="640" y="110" class="sub-text">Deep Learning models</text>
   </g>
-  <!-- Child 3: AI Agents & Google Antigravity (Width 150, start x=565, center x=640) -->
   <g class="node-group">
     <rect x="565" y="135" width="150" height="30" rx="4" class="node-ai" />
-    <text x="640" y="151" class="title-text">AI Agents &amp; Antigravity</text>
-    <text x="640" y="160" class="sub-text">Google AGY &amp; Vibe Coding</text>
+    <text x="640" y="151" class="title-text">AI Agents & Antigravity</text>
+    <text x="640" y="160" class="sub-text">Google AGY & Vibe Coding</text>
   </g>
   
-  <!-- ==================== EMBEDDED BRANCH (RIGHT) ==================== -->
-  <!-- Main Embedded Hub -->
+  <!-- EMBEDDED BRANCH -->
   <g class="node-group">
     <rect x="450" y="220" width="100" height="40" rx="6" class="node-embedded" />
     <text x="500" y="238" class="title-text">💻 EMBEDDED</text>
-    <text x="500" y="251" class="sub-text" fill="#34D399">Firmware &amp; Soft</text>
+    <text x="500" y="251" class="sub-text" fill="#34D399">Firmware & Soft</text>
   </g>
-  <!-- Child 1: Languages (Width 150, start x=565, center x=640) -->
   <g class="node-group">
     <rect x="565" y="185" width="150" height="30" rx="4" class="node-embedded" />
-    <text x="640" y="201" class="title-text">Python &amp; Embedded C</text>
+    <text x="640" y="201" class="title-text">Python & Embedded C</text>
     <text x="640" y="210" class="sub-text">Main programming languages</text>
   </g>
-  <!-- Child 2: Microcontrollers (Width 150, start x=565, center x=640) -->
   <g class="node-group">
     <rect x="565" y="235" width="150" height="30" rx="4" class="node-embedded" />
-    <text x="640" y="251" class="title-text">ESP32, STM32 &amp; Jetson</text>
+    <text x="640" y="251" class="title-text">ESP32, STM32 & Jetson</text>
     <text x="640" y="260" class="sub-text">Single Board Computers</text>
   </g>
-  <!-- Child 3: Micro-ROS & Tools (Width 150, start x=565, center x=640) -->
   <g class="node-group">
     <rect x="565" y="275" width="150" height="30" rx="4" class="node-embedded" />
-    <text x="640" y="291" class="title-text">Micro-ROS &amp; Git</text>
-    <text x="640" y="300" class="sub-text">Linux (Ubuntu) &amp; VS Code</text>
+    <text x="640" y="291" class="title-text">Micro-ROS & Git</text>
+    <text x="640" y="300" class="sub-text">Linux (Ubuntu) & VS Code</text>
   </g>
 </svg>
