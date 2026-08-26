@@ -9,28 +9,84 @@
 
 > **Bonjour!** I am Sailakshmi B T, a third-year Robotics and Automation Engineering student at Madras Institute of Technology. I am passionate about embedded systems, control architectures, and integrating AI/computer vision with hardware.
 
+---
+
+## 🛠️ Tech Stack & Toolbox
+
+<details>
+  <summary><b>🤖 Robotics & Control Systems</b> (Click to expand)</summary>
+  <br/>
+  
+  * **Frameworks & Middleware:** ROS 2 (Jazzy / Humble)
+  * **Control & Kinematics:** Trajectory Planning, Feedback Loops, Motor Control
+  * **Platforms:** AgileX Scout Mini, Mobile Robots, Robotic Arms
+  * **Hardware Integration:** Sensors integration (LIDAR, IMUs, Encoders), Actuators
+</details>
+
+<details>
+  <summary><b>👁️ Computer Vision & Machine Learning</b> (Click to expand)</summary>
+  <br/>
+  
+  * **Computer Vision:** OpenCV, MediaPipe (Real-time Hand/Pose Tracking)
+  * **Deep Learning & ML:** PyTorch, TensorFlow, Scikit-learn, Regression & Classification
+  * **Edge AI:** Local AI deployment, LLM orchestration (Llama 3.2, Ollama)
+</details>
+
+<details>
+  <summary><b>💻 Software & Embedded Development</b> (Click to expand)</summary>
+  <br/>
+  
+  * **Programming Languages:** Python, C++, Embedded C
+  * **Backend & WebSockets:** FastAPI, WebSockets, RESTful APIs
+  * **Embedded Hardware:** Arduino, ESP32, STM32, Single Board Computers (Raspberry Pi/Jetson)
+  * **Tools & OS:** Git, Linux (Ubuntu), Micro-ROS, VS Code
+</details>
+
+---
+
+## 🏗️ Featured Repositories
+
+<details open>
+  <summary><b>🚀 AI & Control Projects</b> (Click to collapse/expand)</summary>
+  <br/>
+
+  * **🤖 [orion-local-ai](https://github.com/Saibts/orion-local-ai)**
+    * Asynchronous voice assistant powered by Llama 3.2 running locally through Ollama, built with FastAPI, WebSockets, and Web Speech API.
+  * **🤟 [sign-language-translator-cv](https://github.com/Saibts/sign-language-translator-cv)**
+    * Computer Vision project implementing image processing and AI-based gesture classification for sign language translation.
+  * **🚗 [autonomous-behavioral-cloning](https://github.com/Saibts/autonomous-behavioral-cloning)**
+    * End-to-end deep learning model training a vehicle to drive autonomously in simulator environments using behavioral cloning.
+  * **🖐️ [hand-gesture-controller-vol-bright](https://github.com/Saibts/hand-gesture-controller-vol-bright)**
+    * Real-time webcam gesture controller utilizing OpenCV and MediaPipe to adjust system volume and brightness dynamically.
+  * **📊 [concrete-strength-ml](https://github.com/Saibts/concrete-strength-ml)**
+    * Machine learning analysis and regression models mapping raw material compositions to compressive concrete strength.
+  * **🚜 [AgileX_ScoutMini_JAZZY](https://github.com/Saibts/AgileX_ScoutMini_JAZZY)**
+    * Controls and integration driver setup targeting the AgileX Scout Mini mobile robot chassis.
+</details>
+
+---
 
 ## 📊 My Contribution Activity Graph
-<div align="center">
-  <img src="activity-graph.svg" alt="Saibts's Contribution Activity Graph" width="100%" />
-</div>
 
-<br/>
+<details open>
+  <summary><b>📈 View Activity Insights</b> (Click to collapse/expand)</summary>
+  <br/>
 
-## 🏗️ What I'm Building & Breaking (My Repositories)
-
-* **🤖 [orion-local-ai](https://github.com/Saibts/orion-local-ai)**
-  * Asynchronous voice assistant powered by Llama 3.2 running locally through Ollama, built with FastAPI, WebSockets, and Web Speech API.
-* **🤟 [sign-language-translator-cv](https://github.com/Saibts/sign-language-translator-cv)**
-  * Computer Vision project implementing image processing and AI-based gesture classification for sign language translation.
-* **🚗 [autonomous-behavioral-cloning](https://github.com/Saibts/autonomous-behavioral-cloning)**
-  * End-to-end deep learning model training a vehicle to drive autonomously in simulator environments using behavioral cloning.
-* **🖐️ [hand-gesture-controller-vol-bright](https://github.com/Saibts/hand-gesture-controller-vol-bright)**
-  * Real-time webcam gesture controller utilizing OpenCV and MediaPipe to adjust system volume and brightness dynamically.
-* **📊 [concrete-strength-ml](https://github.com/Saibts/concrete-strength-ml)**
-  * Machine learning analysis and regression models mapping raw material compositions to compressive concrete strength.
-* **🚜 [AgileX_ScoutMini_JAZZY](https://github.com/Saibts/AgileX_ScoutMini_JAZZY)**
-  * Controls and integration driver setup targeting the AgileX Scout Mini mobile robot chassis.
+  <div align="center">
+    <img src="activity-graph.svg" alt="Saibts's Contribution Activity Graph" width="100%" />
+  </div>
+  
+  <br/>
+  
+  <h4 align="center">🐍 Contribution Snake Game</h4>
+  <div align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg" />
+      <img alt="GitHub Contribution Snake" src="github-contribution-grid-snake.svg" width="100%" />
+    </picture>
+  </div>
+</details>
 
 ---
 
