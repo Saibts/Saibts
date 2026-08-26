@@ -29,13 +29,13 @@
     <!-- Face base (extra chubby, soft skin tone) -->
     <ellipse cx="100" cy="118" rx="45" ry="35" fill="#FFF1F2" />
     
-    <!-- Side hair framing the cheeks (cozy bob cut) -->
-    <path d="M 54 100 Q 47 120 54 135 Q 67 122 66 110 Z" fill="#DEC9F6" />
-    <path d="M 146 100 Q 153 120 146 135 Q 133 122 134 110 Z" fill="#DEC9F6" />
+    <!-- Side hair framing the cheeks (cozy longer bob cut) -->
+    <path d="M 54 100 Q 46 122 55 148 Q 67 126 66 110 Z" fill="#DEC9F6" />
+    <path d="M 146 100 Q 154 122 145 148 Q 133 126 134 110 Z" fill="#DEC9F6" />
     
-    <!-- Side hair shadow/detail lines for depth -->
-    <path d="M 56 108 Q 51 122 55 131" stroke="#B085F5" stroke-width="1.5" fill="none" stroke-linecap="round" />
-    <path d="M 144 108 Q 149 122 145 131" stroke="#B085F5" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    <!-- Side hair shadow/detail lines for depth (Extended for longer hair) -->
+    <path d="M 56 108 Q 49 126 54 144" stroke="#B085F5" stroke-width="1.5" fill="none" stroke-linecap="round" />
+    <path d="M 144 108 Q 151 126 146 144" stroke="#B085F5" stroke-width="1.5" fill="none" stroke-linecap="round" />
     
     <!-- Forehead Bangs (Cozy flat cut with two small V splits and shadow lines) -->
     <path d="M 54 96 
