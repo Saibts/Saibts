@@ -77,13 +77,9 @@
   
   <br/>
   
-  <h4 align="center">🐍 Contribution Snake Game</h4>
+  <h4 align="center">🤖 Interactive Mobile Robot Blueprint (Hover to Inspect Hardware/Software)</h4>
   <div align="center">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="github-contribution-grid-snake-dark.svg" />
-      <source media="(prefers-color-scheme: light)" srcset="github-contribution-grid-snake.svg" />
-      <img alt="GitHub Contribution Snake" src="github-contribution-grid-snake.svg" width="100%" />
-    </picture>
+    <img alt="Interactive Robot Blueprint" src="robot-schematic.svg" width="100%" />
   </div>
 </details>
 
