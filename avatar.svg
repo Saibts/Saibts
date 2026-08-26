@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
   <defs>
-    <!-- Soft pastel gradient for a super cute, cozy background -->
+    <!-- Soft pastel gradient for background -->
     <linearGradient id="pastel-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#FDF2F8" />
       <stop offset="100%" stop-color="#F3E8FF" />
     </linearGradient>
   </defs>
   
-  <!-- Soft pastel circle background with a cute border -->
+  <!-- Soft pastel circle background with cute border -->
   <circle cx="100" cy="100" r="95" fill="url(#pastel-grad)" stroke="#F5D0FE" stroke-width="3" />
   
-  <!-- Head group tilted slightly for that cute chibi look -->
+  <!-- Head group tilted slightly for cute chibi look -->
   <g transform="rotate(-4, 100, 110)">
     
     <!-- White cozy hoodie hood (Back) -->
@@ -29,19 +29,20 @@
     <!-- Tiny cute off-center smile -->
     <path d="M 95 125 Q 98 128 102 125" stroke="#475569" stroke-width="2.2" fill="none" stroke-linecap="round" />
     
-    <!-- Lilac hair bangs (Soft, rounded chibi strands) -->
-    <!-- Left/Right hair framing cheeks -->
-    <path d="M 57 102 Q 52 118 58 132 Q 67 122 66 110 Z" fill="#D8B4FE" />
-    <path d="M 143 102 Q 148 118 142 132 Q 133 122 134 110 Z" fill="#D8B4FE" />
+    <!-- YUNI LILAC HAIR (Soft pastel lavender #DEC9F6) -->
+    <!-- Side hair bangs framing the cheeks (cozy bob cut) -->
+    <path d="M 57 100 Q 51 120 56 135 Q 67 122 66 110 Z" fill="#DEC9F6" />
+    <path d="M 143 100 Q 149 120 144 135 Q 133 122 134 110 Z" fill="#DEC9F6" />
     
-    <!-- Soft rounded bangs -->
-    <path d="M 57 102 
-             Q 100 82 143 102 
-             L 138 107
-             Q 124 110 119 98
-             Q 110 111 100 98
-             Q 90 111 81 98
-             Q 73 110 61 107 Z" fill="#D8B4FE" />
+    <!-- Forehead Bangs (Cozy flat cut with two small V splits) -->
+    <path d="M 56 98 
+             Q 100 80 144 98 
+             L 142 106
+             Q 125 106 122 101
+             L 118 106
+             Q 102 106 100 101
+             L 97 106
+             Q 76 106 58 106 Z" fill="#DEC9F6" />
              
     <!-- Small bat-wing hair clips (horns) -->
     <path d="M 48 94 L 36 86 C 32 93, 40 101, 46 100 Z" fill="#3B2667" />
