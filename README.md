@@ -2,6 +2,12 @@
 ### Robotics & Automation Undergrad | Embedded Systems & AI Developer
 
 <div align="center">
+  <img src="robot-circuit-banner.svg" alt="Robotics &amp; Circuit Banner" width="100%" />
+</div>
+
+<br/>
+
+<div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=600&lines=Building+robotics+platforms;Giving+them+digital+brains;Let's+build+something+cool!+" alt="Typing SVG" />
 </div>
 

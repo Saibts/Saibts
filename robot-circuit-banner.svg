@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="100%">
+  <style>
+    .bg { fill: #0D1117; rx: 10px; }
+    
+    /* Neon Glow Styles */
+    .glow-cyan { stroke: #00E5FF; filter: drop-shadow(0 0 4px #00E5FF); }
+    .glow-blue { stroke: #58A6FF; filter: drop-shadow(0 0 4px #58A6FF); }
+    
+    /* Circuit Traces */
+    .trace { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .trace-blue { stroke: #1F4A96; stroke-width: 1.2; opacity: 0.4; }
+    .trace-cyan { stroke: #00E5FF; stroke-width: 1.5; opacity: 0.85; }
+    
+    /* Nodes */
+    .node { fill: #0D1117; stroke-width: 1.5; }
+    .node-cyan { stroke: #00E5FF; fill: #00E5FF; filter: drop-shadow(0 0 3px #00E5FF); }
+    .node-blue { stroke: #1F4A96; fill: #1F4A96; }
+    
+    /* Animations */
+    .pulse-glow {
+      animation: pulse 4s infinite alternate;
+    }
+    @keyframes pulse {
+      0% { opacity: 0.3; }
+      100% { opacity: 0.95; }
+    }
+  </style>
+  
+  <rect width="100%" height="100%" class="bg" />
+  
+  <!-- BACKGROUND GRID (Blueprint style) -->
+  <g stroke="#161B22" stroke-width="0.8">
+    <line x1="100" y1="0" x2="100" y2="200" />
+    <line x1="200" y1="0" x2="200" y2="200" />
+    <line x1="300" y1="0" x2="300" y2="200" />
+    <line x1="400" y1="0" x2="400" y2="200" />
+    <line x1="500" y1="0" x2="500" y2="200" />
+    <line x1="600" y1="0" x2="600" y2="200" />
+    <line x1="700" y1="0" x2="700" y2="200" />
+    <line x1="0" y1="50" x2="800" y2="50" />
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="150" x2="800" y2="150" />
+  </g>
+
+  <!-- LEFT & CENTER: Circuit Traces -->
+  <g>
+    <path d="M 50 150 L 120 150 L 150 120 L 260 120 L 280 100 L 350 100" class="trace trace-cyan pulse-glow glow-cyan" />
+    <path d="M 80 40 L 150 40 L 180 70 L 180 130 L 210 160 L 320 160" class="trace trace-blue" />
+    <path d="M 280 20 L 310 50 L 310 110 L 340 140 L 410 140" class="trace trace-blue" />
+    
+    <circle cx="50" cy="150" r="3.5" class="node node-cyan" />
+    <circle cx="80" cy="40" r="3" class="node node-blue" />
+    <circle cx="280" cy="20" r="3" class="node node-blue" />
+    <circle cx="350" cy="100" r="3.5" class="node node-cyan" />
+    <circle cx="410" cy="140" r="3" class="node node-blue" />
+  </g>
+
+  <!-- CENTER-RIGHT: Robotics Controller & Arm Wireframe -->
+  <g transform="translate(420, 20)">
+    <!-- MCU Chip Graphic -->
+    <rect x="0" y="50" width="50" height="50" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1.5" />
+    <rect x="10" y="60" width="30" height="30" rx="2" fill="#0D1117" stroke="#00E5FF" class="glow-cyan" opacity="0.8" />
+    <!-- Connector pins from chip to board -->
+    <path d="M -8,60 L 0,60 M -8,75 L 0,75 M -8,90 L 0,90 M 50,60 L 58,60 M 50,75 L 58,75 M 50,90 L 58,90" stroke="#30363D" stroke-width="1.5" />
+    <path d="M 10,42 L 10,50 M 25,42 L 25,50 M 40,42 L 40,50 M 10,100 L 10,108 M 25,100 L 25,108 M 40,100 L 40,108" stroke="#30363D" stroke-width="1.5" />
+
+    <!-- Robot Arm Wireframe (Extending from right) -->
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <!-- Segment 1 (Base joint to Elbow) -->
+      <line x1="280" y1="130" x2="210" y2="60" stroke="#1F4A96" stroke-width="2" />
+      <!-- Segment 2 (Elbow to Wrist) -->
+      <line x1="210" y1="60" x2="110" y2="75" stroke="#00E5FF" stroke-width="2.5" class="glow-cyan" />
+      
+      <!-- Base Joint -->
+      <circle cx="280" cy="130" r="8" fill="#161B22" stroke="#30363D" stroke-width="2" />
+      <!-- Elbow Joint -->
+      <circle cx="210" cy="60" r="6" fill="#0D1117" stroke="#00E5FF" stroke-width="1.5" />
+      <!-- Wrist Joint -->
+      <circle cx="110" cy="75" r="5" fill="#0D1117" stroke="#00E5FF" stroke-width="1.5" />
+      
+      <!-- Gripper Claw -->
+      <path d="M 110 75 Q 90 60 75 70 M 110 75 Q 90 90 77 82" stroke="#00E5FF" stroke-width="1.8" fill="none" class="glow-cyan" />
+      
+      <!-- CAN Bus signal waves from gripper to Chip -->
+      <path d="M 70 76 Q 60 70 50 76" stroke="#58A6FF" stroke-width="1" fill="none" opacity="0.5" class="pulse-glow" />
+      <path d="M 90 76 L 68 110 L 50 110" stroke="#1F4A96" stroke-width="1" stroke-dasharray="3 3" fill="none" />
+    </g>
+  </g>
+  
+  <!-- RIGHT SIDE: Glowing Network Nodes -->
+  <g transform="translate(680, 30)">
+    <path d="M 0 50 L 50 20 L 90 50 L 50 110 L -10 80 Z" stroke="#1F4A96" stroke-width="1" fill="none" opacity="0.3" />
+    <circle cx="0" cy="50" r="3" class="node node-blue" />
+    <circle cx="50" cy="20" r="3.5" class="node node-cyan" />
+    <circle cx="90" cy="50" r="3" class="node node-blue" />
+    <circle cx="50" cy="110" r="3" class="node node-blue" />
+    <circle cx="-10" cy="80" r="3.5" class="node node-cyan" />
+  </g>
+</svg>
