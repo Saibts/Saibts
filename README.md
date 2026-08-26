@@ -19,33 +19,9 @@
 
 ## 🛠️ Tech Stack & Toolbox
 
-<details>
-  <summary><b>🤖 Robotics & Control Systems</b> (Click to expand)</summary>
-  <br/>
-  
-  * **Frameworks & Middleware:** ROS 2 (Jazzy / Humble)
-  * **Control & Kinematics:** Trajectory Planning, Feedback Loops, Motor Control
-  * **Platforms:** AgileX Scout Mini, Mobile Robots, Robotic Arms
-  * **Hardware Integration:** Sensors integration (LIDAR, IMUs, Encoders), Actuators
-</details>
-
-<details>
-  <summary><b>👁️ Computer Vision & Machine Learning</b> (Click to expand)</summary>
-  <br/>
-  
-  * **Computer Vision:** OpenCV, MediaPipe (Real-time Hand/Pose Tracking)
-  * **Deep Learning & ML:** PyTorch, TensorFlow, Scikit-learn, Regression & Classification
-  * **AI & Agentic Development:** AI Agents, Vibe Coding, LLM orchestration (Llama 3.2, Ollama), Local AI deployment
-</details>
-
-<details>
-  <summary><b>💻 Software & Embedded Development</b> (Click to expand)</summary>
-  <br/>
-  
-  * **Programming Languages:** Python, Embedded C
-  * **Embedded Hardware:** Arduino, ESP32, STM32, Single Board Computers (Jetson)
-  * **Tools & OS:** Git, Linux (Ubuntu), Micro-ROS, VS Code
-</details>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Saibts/Saibts/main/tech-stack-map.svg?v=5" alt="Tech Stack Mind Map" width="100%" />
+</div>
 
 ---
 
