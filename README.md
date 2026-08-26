@@ -80,7 +80,7 @@
   <br/>
   
   <div align="center">
-    <img alt="Chibi Avatar Contribution Graph" src="profile-spiderman.svg?v=101" width="100%" />
+    <img alt="Chibi Avatar Contribution Graph" src="https://raw.githubusercontent.com/Saibts/Saibts/main/profile-spiderman.svg?v=102" width="100%" />
   </div>
 </details>
 
