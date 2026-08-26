@@ -151,43 +151,48 @@ svg_template = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" 
 </svg>
 """
 
+# Helper to escape XML special characters
+def esc(val):
+    return val.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+
 formatted_svg = svg_template.format(
     color_core=CONFIG["core"]["color"],
-    title_core=CONFIG["core"]["title"],
-    subtitle_core=CONFIG["core"]["subtitle"],
+    title_core=esc(CONFIG["core"]["title"]),
+    subtitle_core=esc(CONFIG["core"]["subtitle"]),
     
     color_robotics=CONFIG["robotics"]["color"],
-    title_robotics=CONFIG["robotics"]["title"],
-    subtitle_robotics=CONFIG["robotics"]["subtitle"],
-    title_rob_child1=CONFIG["robotics"]["children"][0]["title"],
-    sub_rob_child1=CONFIG["robotics"]["children"][0]["subtitle"],
-    title_rob_child2=CONFIG["robotics"]["children"][1]["title"],
-    sub_rob_child2=CONFIG["robotics"]["children"][1]["subtitle"],
-    title_rob_child3=CONFIG["robotics"]["children"][2]["title"],
-    sub_rob_child3=CONFIG["robotics"]["children"][2]["subtitle"],
+    title_robotics=esc(CONFIG["robotics"]["title"]),
+    subtitle_robotics=esc(CONFIG["robotics"]["subtitle"]),
+    title_rob_child1=esc(CONFIG["robotics"]["children"][0]["title"]),
+    sub_rob_child1=esc(CONFIG["robotics"]["children"][0]["subtitle"]),
+    title_rob_child2=esc(CONFIG["robotics"]["children"][1]["title"]),
+    sub_rob_child2=esc(CONFIG["robotics"]["children"][1]["subtitle"]),
+    title_rob_child3=esc(CONFIG["robotics"]["children"][2]["title"]),
+    sub_rob_child3=esc(CONFIG["robotics"]["children"][2]["subtitle"]),
     
     color_ai=CONFIG["ai"]["color"],
-    title_ai=CONFIG["ai"]["title"],
-    subtitle_ai=CONFIG["ai"]["subtitle"],
-    title_ai_child1=CONFIG["ai"]["children"][0]["title"],
-    sub_ai_child1=CONFIG["ai"]["children"][0]["subtitle"],
-    title_ai_child2=CONFIG["ai"]["children"][1]["title"],
-    sub_ai_child2=CONFIG["ai"]["children"][1]["subtitle"],
-    title_ai_child3=CONFIG["ai"]["children"][2]["title"],
-    sub_ai_child3=CONFIG["ai"]["children"][2]["subtitle"],
+    title_ai=esc(CONFIG["ai"]["title"]),
+    subtitle_ai=esc(CONFIG["ai"]["subtitle"]),
+    title_ai_child1=esc(CONFIG["ai"]["children"][0]["title"]),
+    sub_ai_child1=esc(CONFIG["ai"]["children"][0]["subtitle"]),
+    title_ai_child2=esc(CONFIG["ai"]["children"][1]["title"]),
+    sub_ai_child2=esc(CONFIG["ai"]["children"][1]["subtitle"]),
+    title_ai_child3=esc(CONFIG["ai"]["children"][2]["title"]),
+    sub_ai_child3=esc(CONFIG["ai"]["children"][2]["subtitle"]),
     
     color_embedded=CONFIG["embedded"]["color"],
-    title_emb=CONFIG["embedded"]["title"],
-    subtitle_emb=CONFIG["embedded"]["subtitle"],
-    title_emb_child1=CONFIG["embedded"]["children"][0]["title"],
-    sub_emb_child1=CONFIG["embedded"]["children"][0]["subtitle"],
-    title_emb_child2=CONFIG["embedded"]["children"][1]["title"],
-    sub_emb_child2=CONFIG["embedded"]["children"][1]["subtitle"],
-    title_emb_child3=CONFIG["embedded"]["children"][2]["title"],
-    sub_emb_child3=CONFIG["embedded"]["children"][2]["subtitle"]
+    title_emb=esc(CONFIG["embedded"]["title"]),
+    subtitle_emb=esc(CONFIG["embedded"]["subtitle"]),
+    title_emb_child1=esc(CONFIG["embedded"]["children"][0]["title"]),
+    sub_emb_child1=esc(CONFIG["embedded"]["children"][0]["subtitle"]),
+    title_emb_child2=esc(CONFIG["embedded"]["children"][1]["title"]),
+    sub_emb_child2=esc(CONFIG["embedded"]["children"][1]["subtitle"]),
+    title_emb_child3=esc(CONFIG["embedded"]["children"][2]["title"]),
+    sub_emb_child3=esc(CONFIG["embedded"]["children"][2]["subtitle"])
 )
 
 with open("tech-stack-toolbox.svg", "w", encoding="utf-8") as f:
     f.write(formatted_svg)
 
 print("Successfully generated tech-stack-toolbox.svg!")
+
