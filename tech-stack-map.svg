@@ -28,8 +28,8 @@
   <rect width="100%" height="100%" class="bg" />
   
   <!-- BACKGROUND SCHEMATIC LINKS -->
-  <!-- Robotics Branch (Left - Aligned to connect to x=200) -->
-  <path d="M 400 160 L 220 160 M 220 160 L 200 65 M 220 160 L 200 120 M 220 160 L 200 170 M 220 160 L 200 220" class="link link-robotics" />
+  <!-- Robotics Branch (Left - Aligned to pivot x=225, connecting to children at x=200) -->
+  <path d="M 400 160 L 225 160 M 225 160 L 200 65 M 225 160 L 200 120 M 225 160 L 200 170 M 225 160 L 200 220" class="link link-robotics" />
   
   <!-- AI & CV Branch (Right - Aligned to connect to x=565) -->
   <path d="M 400 160 Q 400 80 500 80 M 500 80 L 565 50 M 500 80 L 565 100 M 500 80 L 565 150" class="link link-ai" />
@@ -47,11 +47,11 @@
   </g>
   
   <!-- ==================== ROBOTICS BRANCH (LEFT) ==================== -->
-  <!-- Main Robotics Hub -->
+  <!-- Main Robotics Hub (Shifted to x=225 to eliminate overlapping) -->
   <g class="node-group">
-    <rect x="170" y="140" width="100" height="40" rx="6" class="node-robotics" />
-    <text x="220" y="158" class="title-text">🤖 ROBOTICS</text>
-    <text x="220" y="171" class="sub-text" fill="#60A5FA">Control &amp; Systems</text>
+    <rect x="225" y="140" width="100" height="40" rx="6" class="node-robotics" />
+    <text x="275" y="158" class="title-text">🤖 ROBOTICS</text>
+    <text x="275" y="171" class="sub-text" fill="#60A5FA">Control &amp; Systems</text>
   </g>
   <!-- Child 1: ROS 2 (Width 135, start x=65, center x=132.5) -->
   <g class="node-group">
