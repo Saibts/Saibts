@@ -78,7 +78,7 @@
   <br/>
   
   <div align="center">
-    <img alt="Spiderman Contribution Calendar" src="profile-spiderman.svg?v=7" width="100%" />
+    <img alt="Spiderman Contribution Calendar" src="profile-spiderman.svg?v=8" width="100%" />
   </div>
 </details>
 
