@@ -27,7 +27,7 @@
   </defs>
   <rect width="100%" height="100%" class="bg" />
   <text x="25" y="32" class="title">Activity Graph</text>
-  <text x="25" y="50" class="subtitle">Total contributions (last 30 days): 68</text>
+  <text x="25" y="50" class="subtitle">Total contributions (last 30 days): 81</text>
   <line x1="50" y1="65.0" x2="755" y2="65.0" class="grid-line" />
   <text x="40" y="69.0" class="axis-text" text-anchor="end">18</text>
   <line x1="50" y1="103.75" x2="755" y2="103.75" class="grid-line" />
@@ -38,8 +38,8 @@
   <text x="40" y="185.25" class="axis-text" text-anchor="end">4</text>
   <line x1="50" y1="220.0" x2="755" y2="220.0" class="grid-line" />
   <text x="40" y="224.0" class="axis-text" text-anchor="end">0</text>
-  <path d="M 50.0 220 L 50.0 220.0 L 74.3 220.0 L 98.6 220.0 L 122.9 220.0 L 147.2 220.0 L 171.6 220.0 L 195.9 220.0 L 220.2 220.0 L 244.5 220.0 L 268.8 220.0 L 293.1 220.0 L 317.4 202.8 L 341.7 220.0 L 366.0 220.0 L 390.3 220.0 L 414.7 220.0 L 439.0 220.0 L 463.3 151.1 L 487.6 65.0 L 511.9 220.0 L 536.2 73.6 L 560.5 220.0 L 584.8 220.0 L 609.1 220.0 L 633.4 185.6 L 657.8 220.0 L 682.1 220.0 L 706.4 159.7 L 730.7 125.3 L 755.0 211.4 L 755.0 220 Z" class="graph-area" />
-  <path d="M 50.0 220.0 L 74.3 220.0 L 98.6 220.0 L 122.9 220.0 L 147.2 220.0 L 171.6 220.0 L 195.9 220.0 L 220.2 220.0 L 244.5 220.0 L 268.8 220.0 L 293.1 220.0 L 317.4 202.8 L 341.7 220.0 L 366.0 220.0 L 390.3 220.0 L 414.7 220.0 L 439.0 220.0 L 463.3 151.1 L 487.6 65.0 L 511.9 220.0 L 536.2 73.6 L 560.5 220.0 L 584.8 220.0 L 609.1 220.0 L 633.4 185.6 L 657.8 220.0 L 682.1 220.0 L 706.4 159.7 L 730.7 125.3 L 755.0 211.4 " class="graph-line" />
+  <path d="M 50.0 220 L 50.0 220.0 L 74.3 220.0 L 98.6 220.0 L 122.9 220.0 L 147.2 220.0 L 171.6 220.0 L 195.9 220.0 L 220.2 220.0 L 244.5 220.0 L 268.8 220.0 L 293.1 220.0 L 317.4 202.8 L 341.7 220.0 L 366.0 220.0 L 390.3 220.0 L 414.7 220.0 L 439.0 220.0 L 463.3 151.1 L 487.6 65.0 L 511.9 220.0 L 536.2 73.6 L 560.5 220.0 L 584.8 220.0 L 609.1 220.0 L 633.4 185.6 L 657.8 220.0 L 682.1 220.0 L 706.4 159.7 L 730.7 125.3 L 755.0 99.4 L 755.0 220 Z" class="graph-area" />
+  <path d="M 50.0 220.0 L 74.3 220.0 L 98.6 220.0 L 122.9 220.0 L 147.2 220.0 L 171.6 220.0 L 195.9 220.0 L 220.2 220.0 L 244.5 220.0 L 268.8 220.0 L 293.1 220.0 L 317.4 202.8 L 341.7 220.0 L 366.0 220.0 L 390.3 220.0 L 414.7 220.0 L 439.0 220.0 L 463.3 151.1 L 487.6 65.0 L 511.9 220.0 L 536.2 73.6 L 560.5 220.0 L 584.8 220.0 L 609.1 220.0 L 633.4 185.6 L 657.8 220.0 L 682.1 220.0 L 706.4 159.7 L 730.7 125.3 L 755.0 99.4 " class="graph-line" />
   <text x="50.0" y="240" class="axis-text" text-anchor="middle">Jul 28</text>
   <text x="171.55172413793105" y="240" class="axis-text" text-anchor="middle">Aug 02</text>
   <text x="293.1034482758621" y="240" class="axis-text" text-anchor="middle">Aug 07</text>
@@ -339,11 +339,11 @@
   </g>
   <g class="point-group">
     <line x1="755.0" y1="65" x2="755.0" y2="220" class="guide-line" />
-    <circle cx="755.0" cy="211.4" r="4" class="point-dot" />
-    <circle cx="755.0" cy="211.4" r="12" fill="transparent" />
-    <g class="tooltip" transform="translate(670.0, 159.4)">
+    <circle cx="755.0" cy="99.4" r="4" class="point-dot" />
+    <circle cx="755.0" cy="99.4" r="12" fill="transparent" />
+    <g class="tooltip" transform="translate(670.0, 47.4)">
       <rect width="120" height="42" rx="5" fill="#161B22" stroke="#30363D" stroke-width="1.5" filter="drop-shadow(0px 3px 6px rgba(0,0,0,0.5))" />
-      <text x="60.0" y="17" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5px" font-weight="600" text-anchor="middle">1 contribution</text>
+      <text x="60.0" y="17" fill="#F0F6FC" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5px" font-weight="600" text-anchor="middle">14 contributions</text>
       <text x="60.0" y="31" fill="#8B949E" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="9px" text-anchor="middle">Aug 26, 2026</text>
     </g>
   </g>
