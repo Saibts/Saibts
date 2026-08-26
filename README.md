@@ -77,9 +77,9 @@
   
   <br/>
   
-  <h4 align="center">🤖 Interactive Mobile Robot Blueprint (Hover to Inspect Hardware/Software)</h4>
+  <h4 align="center">🎮 Playable "Catch the Bug" Minigame</h4>
   <div align="center">
-    <img alt="Interactive Robot Blueprint" src="robot-schematic.svg" width="100%" />
+    <img alt="Catch the Bug Minigame" src="bug-hunt.svg?v=1" width="100%" />
   </div>
 </details>
 
