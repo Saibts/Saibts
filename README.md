@@ -78,7 +78,7 @@
   <br/>
   
   <div align="center">
-    <img alt="Spiderman Contribution Graph" src="profile-spiderman.svg?v=10" width="100%" />
+    <img alt="Spiderman Contribution Graph" src="profile-spiderman.svg?v=11" width="100%" />
   </div>
 </details>
 
