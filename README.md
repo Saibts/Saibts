@@ -20,7 +20,7 @@
 ## 🛠️ Tech Stack & Toolbox
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Saibts/Saibts/main/tech-stack-toolbox.svg" alt="Tech Stack Mind Map" width="100%" />
+  <img src="https://raw.githubusercontent.com/Saibts/Saibts/main/tech-stack-toolbox.svg?v=1" alt="Tech Stack Mind Map" width="100%" />
 </div>
 
 ---
