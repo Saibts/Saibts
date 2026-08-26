@@ -37,8 +37,7 @@
   <br/>
   
   * **Programming Languages:** Python, C++, Embedded C
-  * **Backend & WebSockets:** FastAPI, WebSockets, RESTful APIs
-  * **Embedded Hardware:** Arduino, ESP32, STM32, Single Board Computers (Raspberry Pi/Jetson)
+  * **Embedded Hardware:** Arduino, ESP32, STM32, Single Board Computers (Jetson)
   * **Tools & OS:** Git, Linux (Ubuntu), Micro-ROS, VS Code
 </details>
 
