@@ -77,9 +77,9 @@
   
   <br/>
   
-  <h4 align="center">📁 Interactive Project Explorer Console (Hover Files to Inspect)</h4>
+  <h4 align="center">🕷️ 3D Spiderman Contribution City (Isometric View)</h4>
   <div align="center">
-    <img alt="Interactive Project Explorer" src="project-console.svg?v=1" width="100%" />
+    <img alt="3D Spiderman Contribution City" src="profile-spiderman.svg?v=1" width="100%" />
   </div>
 </details>
 
