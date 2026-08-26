@@ -32,10 +32,10 @@
   <path d="M 400 160 L 220 160 M 220 160 L 150 70 M 220 160 L 120 120 M 220 160 L 110 170 M 220 160 L 130 220" class="link link-robotics" />
   
   <!-- AI & CV Branch (Middle-Top & Right) -->
-  <path d="M 400 160 Q 400 80 500 80 M 500 80 L 620 50 M 500 80 L 640 100 M 500 80 L 620 150" class="link link-ai" />
+  <path d="M 400 160 Q 400 80 500 80 M 500 80 L 640 50 M 500 80 L 640 100 M 500 80 L 640 150" class="link link-ai" />
   
   <!-- Embedded Branch (Middle-Bottom & Right) -->
-  <path d="M 400 160 Q 400 240 500 240 M 500 240 L 620 200 M 500 240 L 640 250 M 500 240 L 600 290" class="link link-embedded" />
+  <path d="M 400 160 Q 400 240 500 240 M 500 240 L 640 200 M 500 240 L 640 250 M 500 240 L 640 290" class="link link-embedded" />
   
   <!-- ==================== NODES & LABELS ==================== -->
   
@@ -85,23 +85,23 @@
     <text x="500" y="78" class="title-text">👁️ CV &amp; AI</text>
     <text x="500" y="91" class="sub-text" fill="#22D3EE">Computer Vision</text>
   </g>
-  <!-- Child 1: OpenCV & MediaPipe -->
+  <!-- Child 1: OpenCV & MediaPipe (Width adjusted to 150, centered at 640) -->
   <g class="node-group">
-    <rect x="575" y="35" width="125" height="30" rx="4" class="node-ai" />
-    <text x="637" y="51" class="title-text">OpenCV &amp; MediaPipe</text>
-    <text x="637" y="60" class="sub-text">Hand/Pose Tracking</text>
+    <rect x="565" y="35" width="150" height="30" rx="4" class="node-ai" />
+    <text x="640" y="51" class="title-text">OpenCV &amp; MediaPipe</text>
+    <text x="640" y="60" class="sub-text">Hand/Pose Tracking</text>
   </g>
-  <!-- Child 2: Deep Learning -->
+  <!-- Child 2: Deep Learning (Width adjusted to 150, centered at 640) -->
   <g class="node-group">
-    <rect x="585" y="85" width="130" height="30" rx="4" class="node-ai" />
-    <text x="650" y="101" class="title-text">PyTorch &amp; TensorFlow</text>
-    <text x="650" y="110" class="sub-text">Deep Learning models</text>
+    <rect x="565" y="85" width="150" height="30" rx="4" class="node-ai" />
+    <text x="640" y="101" class="title-text">PyTorch &amp; TensorFlow</text>
+    <text x="640" y="110" class="sub-text">Deep Learning models</text>
   </g>
-  <!-- Child 3: AI Agents & Google Antigravity -->
+  <!-- Child 3: AI Agents & Google Antigravity (Width adjusted to 150, centered at 640) -->
   <g class="node-group">
-    <rect x="575" y="135" width="135" height="30" rx="4" class="node-ai" />
-    <text x="642.5" y="151" class="title-text">AI Agents &amp; Antigravity</text>
-    <text x="642.5" y="160" class="sub-text">Google AGY &amp; Vibe Coding</text>
+    <rect x="565" y="135" width="150" height="30" rx="4" class="node-ai" />
+    <text x="640" y="151" class="title-text">AI Agents &amp; Antigravity</text>
+    <text x="640" y="160" class="sub-text">Google AGY &amp; Vibe Coding</text>
   </g>
   
   <!-- ==================== EMBEDDED BRANCH ==================== -->
@@ -111,22 +111,22 @@
     <text x="500" y="238" class="title-text">💻 EMBEDDED</text>
     <text x="500" y="251" class="sub-text" fill="#34D399">Firmware &amp; Soft</text>
   </g>
-  <!-- Child 1: Languages -->
+  <!-- Child 1: Languages (Width adjusted to 150, centered at 640) -->
   <g class="node-group">
-    <rect x="575" y="185" width="120" height="30" rx="4" class="node-embedded" />
-    <text x="635" y="201" class="title-text">Python &amp; Embedded C</text>
-    <text x="635" y="210" class="sub-text">Main programming languages</text>
+    <rect x="565" y="185" width="150" height="30" rx="4" class="node-embedded" />
+    <text x="640" y="201" class="title-text">Python &amp; Embedded C</text>
+    <text x="640" y="210" class="sub-text">Main programming languages</text>
   </g>
-  <!-- Child 2: Microcontrollers -->
+  <!-- Child 2: Microcontrollers (Width adjusted to 150, centered at 640) -->
   <g class="node-group">
-    <rect x="590" y="235" width="120" height="30" rx="4" class="node-embedded" />
-    <text x="650" y="251" class="title-text">ESP32, STM32 &amp; Jetson</text>
-    <text x="650" y="260" class="sub-text">Single Board Computers</text>
+    <rect x="565" y="235" width="150" height="30" rx="4" class="node-embedded" />
+    <text x="640" y="251" class="title-text">ESP32, STM32 &amp; Jetson</text>
+    <text x="640" y="260" class="sub-text">Single Board Computers</text>
   </g>
-  <!-- Child 3: Micro-ROS & Tools -->
+  <!-- Child 3: Micro-ROS & Tools (Width adjusted to 150, centered at 640) -->
   <g class="node-group">
-    <rect x="555" y="275" width="120" height="30" rx="4" class="node-embedded" />
-    <text x="615" y="291" class="title-text">Micro-ROS &amp; Git</text>
-    <text x="615" y="300" class="sub-text">Linux (Ubuntu) &amp; VS Code</text>
+    <rect x="565" y="275" width="150" height="30" rx="4" class="node-embedded" />
+    <text x="640" y="291" class="title-text">Micro-ROS &amp; Git</text>
+    <text x="640" y="300" class="sub-text">Linux (Ubuntu) &amp; VS Code</text>
   </g>
 </svg>
