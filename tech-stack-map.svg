@@ -28,8 +28,8 @@
   <rect width="100%" height="100%" class="bg" />
   
   <!-- BACKGROUND SCHEMATIC LINKS -->
-  <!-- Robotics Branch (Left - Aligned to pivot x=225, connecting to children at x=200) -->
-  <path d="M 400 160 L 225 160 M 225 160 L 200 65 M 225 160 L 200 120 M 225 160 L 200 170 M 225 160 L 200 220" class="link link-robotics" />
+  <!-- Robotics Branch (Left - Aligned to pivot x=225, connecting to 3 balanced children at x=200) -->
+  <path d="M 400 160 L 225 160 M 225 160 L 200 75 M 225 160 L 200 155 M 225 160 L 200 235" class="link link-robotics" />
   
   <!-- AI & CV Branch (Right - Aligned to connect to x=565) -->
   <path d="M 400 160 Q 400 80 500 80 M 500 80 L 565 50 M 500 80 L 565 100 M 500 80 L 565 150" class="link link-ai" />
@@ -47,35 +47,29 @@
   </g>
   
   <!-- ==================== ROBOTICS BRANCH (LEFT) ==================== -->
-  <!-- Main Robotics Hub (Shifted to x=225 to eliminate overlapping) -->
+  <!-- Main Robotics Hub -->
   <g class="node-group">
     <rect x="225" y="140" width="100" height="40" rx="6" class="node-robotics" />
     <text x="275" y="158" class="title-text">🤖 ROBOTICS</text>
     <text x="275" y="171" class="sub-text" fill="#60A5FA">Control &amp; Systems</text>
   </g>
-  <!-- Child 1: ROS 2 (Width 135, start x=65, center x=132.5) -->
+  <!-- Child 1: ROS 2 (Shifted down slightly to y=60, center y=75) -->
   <g class="node-group">
-    <rect x="65" y="50" width="135" height="30" rx="4" class="node-robotics" />
-    <text x="132.5" y="66" class="title-text">ROS 2 (Jazzy/Humble)</text>
-    <text x="132.5" y="75" class="sub-text">Middleware &amp; Nav2</text>
+    <rect x="65" y="60" width="135" height="30" rx="4" class="node-robotics" />
+    <text x="132.5" y="76" class="title-text">ROS 2 (Jazzy/Humble)</text>
+    <text x="132.5" y="85" class="sub-text">Middleware &amp; Nav2</text>
   </g>
-  <!-- Child 2: Control Systems (Width 135, start x=65, center x=132.5) -->
+  <!-- Child 2: Platforms (Shifted to y=140, center y=155) -->
   <g class="node-group">
-    <rect x="65" y="105" width="135" height="30" rx="4" class="node-robotics" />
-    <text x="132.5" y="121" class="title-text">Kinematics &amp; Control</text>
-    <text x="132.5" y="130" class="sub-text">Trajectory planning</text>
+    <rect x="65" y="140" width="135" height="30" rx="4" class="node-robotics" />
+    <text x="132.5" y="156" class="title-text">AgileX Scout Mini</text>
+    <text x="132.5" y="165" class="sub-text">Mobile Platforms &amp; Arms</text>
   </g>
-  <!-- Child 3: Platforms (Width 135, start x=65, center x=132.5) -->
+  <!-- Child 3: Sensors Integration (Shifted to y=220, center y=235) -->
   <g class="node-group">
-    <rect x="65" y="155" width="135" height="30" rx="4" class="node-robotics" />
-    <text x="132.5" y="171" class="title-text">AgileX Scout Mini</text>
-    <text x="132.5" y="180" class="sub-text">Mobile Platforms &amp; Arms</text>
-  </g>
-  <!-- Child 4: Sensors Integration (Width 135, start x=65, center x=132.5) -->
-  <g class="node-group">
-    <rect x="65" y="205" width="135" height="30" rx="4" class="node-robotics" />
-    <text x="132.5" y="221" class="title-text">Sensors integration</text>
-    <text x="132.5" y="230" class="sub-text">LIDAR, IMUs, Encoders</text>
+    <rect x="65" y="220" width="135" height="30" rx="4" class="node-robotics" />
+    <text x="132.5" y="236" class="title-text">Sensors integration</text>
+    <text x="132.5" y="245" class="sub-text">LIDAR, IMUs, Encoders</text>
   </g>
   
   <!-- ==================== CV & ML BRANCH (RIGHT) ==================== -->
