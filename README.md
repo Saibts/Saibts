@@ -77,9 +77,9 @@
   
   <br/>
   
-  <h4 align="center">🕷️ 3D Spiderman Contribution City (Isometric View)</h4>
+  <h4 align="center">🕷️ Spiderman Contribution Calendar (Pixel Art)</h4>
   <div align="center">
-    <img alt="3D Spiderman Contribution City" src="profile-spiderman.svg?v=1" width="100%" />
+    <img alt="Spiderman Contribution Calendar" src="profile-spiderman.svg?v=4" width="100%" />
   </div>
 </details>
 
