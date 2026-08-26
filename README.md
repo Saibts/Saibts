@@ -1,9 +1,9 @@
+<div align="center">
+  <img src="avatar.png" alt="Avatar" width="130" />
+</div>
+
 # SAILAKSHMI B T (`@Saibts`)
 ### Robotics & Automation Undergrad | Embedded Systems & AI Developer
-
-<div align="center">
-  <img src="minecraft-banner.svg" alt="Minecraft Banner" width="100%" />
-</div>
 
 <br/>
 
