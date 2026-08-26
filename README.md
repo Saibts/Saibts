@@ -2,7 +2,7 @@
 ### Robotics & Automation Undergrad | Embedded Systems & AI Developer
 
 <div align="center">
-  <img src="robot-circuit-banner.svg" alt="Robotics &amp; Circuit Banner" width="100%" />
+  <img src="minecraft-banner.svg" alt="Minecraft Banner" width="100%" />
 </div>
 
 <br/>
