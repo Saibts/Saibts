@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="avatar.svg?v=2" alt="Avatar" width="130" />
-</div>
-
 # SAILAKSHMI B T (`@Saibts`)
 ### Robotics & Automation Undergrad | Embedded Systems & AI Developer
 
@@ -84,7 +80,7 @@
   <br/>
   
   <div align="center">
-    <img alt="Spiderman Contribution Graph" src="profile-spiderman.svg?v=15" width="100%" />
+    <img alt="Chibi Avatar Contribution Graph" src="profile-spiderman.svg?v=16" width="100%" />
   </div>
 </details>
 
