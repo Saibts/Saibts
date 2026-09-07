@@ -6,14 +6,9 @@
 
 ## 📊 My Contribution Activity Graph
 
-<details open>
-  <summary><b>📈 View Activity Insights</b> (Click to collapse/expand)</summary>
-  <br/>
-
-  <div align="center">
-    <img src="activity-graph.svg" alt="Saibts's Contribution Activity Graph" width="100%" />
-  </div>
-</details>
+<div align="center">
+  <img src="activity-graph.svg" alt="Saibts's Contribution Activity Graph" width="100%" />
+</div>
 
 ---
 
